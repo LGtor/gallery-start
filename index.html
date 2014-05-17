@@ -47,12 +47,10 @@
         $(this).fancybox();
        });
       
-
-
-        
-
+      $(".previews a").on("click", function(){
+        $(".previews a").removeClass("selected");
+        $(this).addClass("selected");
       });
-
     });
   </script>
 </body>
